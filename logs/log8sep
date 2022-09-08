@@ -1,0 +1,2116 @@
+[
+  {
+    "id": "4b1b8b36-4302-4aa1-a93b-fb7ce0f47e08",
+    "type": "ACK_BY_SELLER",
+    "time_taken": 216,
+    "remote_host": "",
+    "message_id": "522d2e68-db34-4304-a4de-a4b7efb98052",
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "cancel",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:56.287294",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "cancel",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "522d2e68-db34-4304-a4de-a4b7efb98052",
+        "timestamp": "2022-09-05T05:25:55.478Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order_id": "K106390753330911",
+        "cancellation_reason_id": "002"
+      }
+    },
+    "status": "N",
+    "headers": "[Content-Type:\"application/json\", Accept:\"application/json\", Authorization:\"Signature keyId=\"cloud-adaptor.proteantech.in/kotak|96c0c288-8086-4b1f-b471-9ba6a0315422|ed25519\",algorithm=\"ed25519\", created=\"1662355556\", expires=\"1662955556\", headers=\"(created) (expires) digest\", signature=\"2pFy4fO3TO4lZdz6q8Iy9UmWajrmCujrfwde9d2EtqEWX94VUIf6ZdP3Jgurg3r+T6MvpeVgBIXDMmtl9YluDA==\"\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "49055026-2b46-4343-aac2-1bf0054ff25d",
+    "type": "REQUEST_BY_BUYER",
+    "time_taken": 0,
+    "remote_host": "35.171.247.223, 10.130.18.3",
+    "message_id": 465660864051992800,
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "select",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:11.949606",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "select",
+        "timestamp": "2022-09-05T05:25:11.378Z",
+        "ttl": "PT30S",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "465660864051992800"
+      },
+      "message": {
+        "order": {
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "fulfillments": [
+            {
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "area_code": "560004"
+                  }
+                }
+              }
+            }
+          ],
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e",
+            "locations": [
+              {
+                "id": "65426587829"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[host:\"172.30.151.104:9004\", content-type:\"text/plain;charset=UTF-8\", accept:\"*/*\", user-agent:\"Java/11.0.16\", x-forwarded-for:\"35.171.247.223, 10.130.18.3\", x-forwarded-host:\"pilot-gateway-1.beckn.nsdl.co.in\", x-forwarded-server:\"prdaspweb1\", content-length:\"709\", connection:\"Keep-Alive\", remoteHost:\"35.171.247.223, 10.130.18.3\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "5e9fc0c0-45bf-4303-a441-9408586efa73",
+    "type": "REQUEST_TO_SELLER",
+    "time_taken": 0,
+    "remote_host": "",
+    "message_id": 465660864051992800,
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "select",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:11.950592",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "select",
+        "timestamp": "2022-09-05T05:25:11.378Z",
+        "ttl": "PT30S",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "465660864051992800"
+      },
+      "message": {
+        "order": {
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "fulfillments": [
+            {
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "area_code": "560004"
+                  }
+                }
+              }
+            }
+          ],
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e",
+            "locations": [
+              {
+                "id": "65426587829"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[Content-Type:\"application/json\", Accept:\"application/json\", Authorization:\"Signature keyId=\"cloud-adaptor.proteantech.in/kotak|96c0c288-8086-4b1f-b471-9ba6a0315422|ed25519\",algorithm=\"ed25519\", created=\"1662355511\", expires=\"1662955511\", headers=\"(created) (expires) digest\", signature=\"TB/8I7TLdLavPT0HIItkMcCtyH1U4oJRiekNAHWUH8FEplqI6Xa3wyKwRs7bDy99mvXgrLRPbULBfz7OpKVJBw==\"\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "97aeb8c6-1d2a-436a-8909-69eba9c998ff",
+    "type": "REQUEST_BY_BUYER",
+    "time_taken": 0,
+    "remote_host": "35.171.247.223, 10.130.18.3",
+    "message_id": 465660864051992800,
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "init",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:20.382637",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "init",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "465660864051992800",
+        "timestamp": "2022-09-05T05:25:19.804Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "billing": {
+            "name": "Samaksh Rawat",
+            "address": {
+              "door": "Flat No 1004",
+              "name": "Samaksh Rawat",
+              "locality": "Electronic City",
+              "city": "Bangalore",
+              "state": "Bangalore",
+              "country": "IND",
+              "area_code": "560004"
+            },
+            "email": "samaksh.rawat@hikeqa.com",
+            "phone": "9873151667",
+            "created_at": "2022-08-06T07:42:08",
+            "updated_at": "2022-08-31T07:41:38"
+          },
+          "fulfillments": [
+            {
+              "type": "Delivery",
+              "tracking": false,
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "door": "Flat No 1004",
+                    "name": "office",
+                    "locality": "Electronic City",
+                    "city": "Bangalore",
+                    "state": "Bangalore",
+                    "country": "",
+                    "area_code": "560004"
+                  }
+                },
+                "contact": {
+                  "phone": "9873151667",
+                  "email": "samaksh.rawat@hikeqa.com"
+                }
+              }
+            }
+          ],
+          "payment": {
+            "type": "ON-ORDER",
+            "status": "paid",
+            "collected_by": "BAP",
+            "collected_by_status": "Agree"
+          },
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e",
+            "locations": [
+              {
+                "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[host:\"172.30.151.104:9004\", content-type:\"text/plain;charset=UTF-8\", x-b3-traceid:\"3e446755c51213b4\", x-b3-spanid:\"f3b88374cb8ade89\", x-b3-parentspanid:\"3e446755c51213b4\", x-b3-sampled:\"0\", accept:\"*/*\", user-agent:\"Java/11.0.16\", x-forwarded-for:\"35.171.247.223, 10.130.18.3\", x-forwarded-host:\"pilot-gateway-1.beckn.nsdl.co.in\", x-forwarded-server:\"prdaspweb1\", content-length:\"1374\", connection:\"Keep-Alive\", remoteHost:\"35.171.247.223, 10.130.18.3\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "e6c8257a-8024-4afb-98c3-7b29481c8fc8",
+    "type": "ACK_TO_BUYER",
+    "time_taken": 0,
+    "remote_host": "",
+    "message_id": 465660864051992800,
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "select",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:11.950706",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "select",
+        "timestamp": "2022-09-05T05:25:11.378Z",
+        "ttl": "PT30S",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "465660864051992800"
+      },
+      "message": {
+        "order": {
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "fulfillments": [
+            {
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "area_code": "560004"
+                  }
+                }
+              }
+            }
+          ],
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e",
+            "locations": [
+              {
+                "id": "65426587829"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[Content-Type:\"application/json\", Accept:\"application/json\", Authorization:\"Signature keyId=\"cloud-adaptor.proteantech.in/kotak|96c0c288-8086-4b1f-b471-9ba6a0315422|ed25519\",algorithm=\"ed25519\", created=\"1662355511\", expires=\"1662955511\", headers=\"(created) (expires) digest\", signature=\"TB/8I7TLdLavPT0HIItkMcCtyH1U4oJRiekNAHWUH8FEplqI6Xa3wyKwRs7bDy99mvXgrLRPbULBfz7OpKVJBw==\"\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "e9163257-958a-4d6d-b9e7-17bd9830cbf4",
+    "type": "ACK_BY_SELLER",
+    "time_taken": 1161,
+    "remote_host": "",
+    "message_id": 465660864051992800,
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "select",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:13.111322",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "select",
+        "timestamp": "2022-09-05T05:25:11.378Z",
+        "ttl": "PT30S",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "465660864051992800"
+      },
+      "message": {
+        "order": {
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "fulfillments": [
+            {
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "area_code": "560004"
+                  }
+                }
+              }
+            }
+          ],
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e",
+            "locations": [
+              {
+                "id": "65426587829"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[Content-Type:\"application/json\", Accept:\"application/json\", Authorization:\"Signature keyId=\"cloud-adaptor.proteantech.in/kotak|96c0c288-8086-4b1f-b471-9ba6a0315422|ed25519\",algorithm=\"ed25519\", created=\"1662355511\", expires=\"1662955511\", headers=\"(created) (expires) digest\", signature=\"TB/8I7TLdLavPT0HIItkMcCtyH1U4oJRiekNAHWUH8FEplqI6Xa3wyKwRs7bDy99mvXgrLRPbULBfz7OpKVJBw==\"\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "761c7303-6627-4380-bcc7-b96326907997",
+    "type": "ACK_TO_SELLER",
+    "time_taken": 0,
+    "remote_host": "44.198.186.133, 10.130.18.3",
+    "message_id": 465660864051992800,
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "on_select",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:14.340527",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_select",
+        "timestamp": "2022-09-04T12:42:46.148Z",
+        "ttl": "PT30S",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "465660864051992800"
+      },
+      "message": {
+        "order": {
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e"
+          },
+          "fulfillments": [
+            {
+              "@ondc/org/provider_name": "The U Shop",
+              "tracking": true,
+              "@ondc/org/category": "Immediate Delivery",
+              "@ondc/org/TAT": "P4D"
+            }
+          ],
+          "quote": {
+            "price": {
+              "currency": "INR",
+              "value": "336"
+            },
+            "breakup": [
+              {
+                "@ondc/org/item_id": "40191024464053",
+                "@ondc/org/item_quantity": {
+                  "count": 1
+                },
+                "title": "Surf Excel Matic 3-in-1 Smart Shots, for both front load and top load machines. Pack of 17",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": 306
+                }
+              },
+              {
+                "title": "Delivery charges",
+                "@ondc/org/title_type": "delivery",
+                "price": {
+                  "currency": "INR",
+                  "value": "30"
+                }
+              }
+            ],
+            "ttl": "P1D"
+          },
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              },
+              "price": {
+                "currency": "INR",
+                "value": 306
+              }
+            }
+          ]
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[host:\"172.30.151.104:9004\", accept:\"application/json, text/plain, */*\", content-type:\"application/json\", authorization:\"Signature keyId=\"ondc.hulsecure.in|e79d1b77-0906-4323-aa92-c7dc64861f14|ed25519\",algorithm=\"ed25519\",created=\"1662355513\",expires=\"1662359113\",headers=\"(created) (expires) digest\",signature=\"9RuU14wFy3kB0xqPCOCjZuPUbekDtTETLlqkE4hWjMmjvwz4tLoigua50Xyu03GmUQc1lODvg9QrttviGeqZCA==\"\", user-agent:\"axios/0.27.2\", x-forwarded-for:\"44.198.186.133, 10.130.18.3\", x-forwarded-host:\"pilot-gateway-1.beckn.nsdl.co.in\", x-forwarded-server:\"prdaspweb1\", content-length:\"1178\", connection:\"Keep-Alive\", remoteHost:\"44.198.186.133, 10.130.18.3\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "5292a021-eed2-4a35-8d69-fa0ad70386bd",
+    "type": "RESPONSE_BY_SELLER",
+    "time_taken": 0,
+    "remote_host": "44.198.186.133, 10.130.18.3",
+    "message_id": 465660864051992800,
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "on_select",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:14.339986",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_select",
+        "timestamp": "2022-09-04T12:42:46.148Z",
+        "ttl": "PT30S",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "465660864051992800"
+      },
+      "message": {
+        "order": {
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e"
+          },
+          "fulfillments": [
+            {
+              "@ondc/org/provider_name": "The U Shop",
+              "tracking": true,
+              "@ondc/org/category": "Immediate Delivery",
+              "@ondc/org/TAT": "P4D"
+            }
+          ],
+          "quote": {
+            "price": {
+              "currency": "INR",
+              "value": "336"
+            },
+            "breakup": [
+              {
+                "@ondc/org/item_id": "40191024464053",
+                "@ondc/org/item_quantity": {
+                  "count": 1
+                },
+                "title": "Surf Excel Matic 3-in-1 Smart Shots, for both front load and top load machines. Pack of 17",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": 306
+                }
+              },
+              {
+                "title": "Delivery charges",
+                "@ondc/org/title_type": "delivery",
+                "price": {
+                  "currency": "INR",
+                  "value": "30"
+                }
+              }
+            ],
+            "ttl": "P1D"
+          },
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              },
+              "price": {
+                "currency": "INR",
+                "value": 306
+              }
+            }
+          ]
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[host:\"172.30.151.104:9004\", accept:\"application/json, text/plain, */*\", content-type:\"application/json\", authorization:\"Signature keyId=\"ondc.hulsecure.in|e79d1b77-0906-4323-aa92-c7dc64861f14|ed25519\",algorithm=\"ed25519\",created=\"1662355513\",expires=\"1662359113\",headers=\"(created) (expires) digest\",signature=\"9RuU14wFy3kB0xqPCOCjZuPUbekDtTETLlqkE4hWjMmjvwz4tLoigua50Xyu03GmUQc1lODvg9QrttviGeqZCA==\"\", user-agent:\"axios/0.27.2\", x-forwarded-for:\"44.198.186.133, 10.130.18.3\", x-forwarded-host:\"pilot-gateway-1.beckn.nsdl.co.in\", x-forwarded-server:\"prdaspweb1\", content-length:\"1178\", connection:\"Keep-Alive\", remoteHost:\"44.198.186.133, 10.130.18.3\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "4f49a055-6802-434f-87e7-45523a04dc18",
+    "type": "ACK_TO_BUYER",
+    "time_taken": 0,
+    "remote_host": "",
+    "message_id": 465660864051992800,
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "init",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:20.383028",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "init",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "465660864051992800",
+        "timestamp": "2022-09-05T05:25:19.804Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "billing": {
+            "name": "Samaksh Rawat",
+            "address": {
+              "door": "Flat No 1004",
+              "name": "Samaksh Rawat",
+              "locality": "Electronic City",
+              "city": "Bangalore",
+              "state": "Bangalore",
+              "country": "IND",
+              "area_code": "560004"
+            },
+            "email": "samaksh.rawat@hikeqa.com",
+            "phone": "9873151667",
+            "created_at": "2022-08-06T07:42:08",
+            "updated_at": "2022-08-31T07:41:38"
+          },
+          "fulfillments": [
+            {
+              "type": "Delivery",
+              "tracking": false,
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "door": "Flat No 1004",
+                    "name": "office",
+                    "locality": "Electronic City",
+                    "city": "Bangalore",
+                    "state": "Bangalore",
+                    "country": "",
+                    "area_code": "560004"
+                  }
+                },
+                "contact": {
+                  "phone": "9873151667",
+                  "email": "samaksh.rawat@hikeqa.com"
+                }
+              }
+            }
+          ],
+          "payment": {
+            "type": "ON-ORDER",
+            "status": "paid",
+            "collected_by": "BAP",
+            "collected_by_status": "Agree"
+          },
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e",
+            "locations": [
+              {
+                "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[Content-Type:\"application/json\", Accept:\"application/json\", Authorization:\"Signature keyId=\"cloud-adaptor.proteantech.in/kotak|96c0c288-8086-4b1f-b471-9ba6a0315422|ed25519\",algorithm=\"ed25519\", created=\"1662355520\", expires=\"1662955520\", headers=\"(created) (expires) digest\", signature=\"zUaw7uRRU9GyfFPNdqAQqX3aNhWcbqBSBtwBJh0STCIBHuMve2OR3n79sqLxcTMC+96e9j0K8DoI9H0snlLIAA==\"\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "26a84f62-ffc7-4dc7-9a63-4458b551c47c",
+    "type": "ACK_TO_SELLER",
+    "time_taken": 0,
+    "remote_host": "44.198.186.133, 10.130.18.3",
+    "message_id": 465660864051992800,
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "on_init",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:21.635416",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_init",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "465660864051992800",
+        "timestamp": "2022-09-04T12:42:46.148Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e"
+          },
+          "provider_location": {
+            "id": "18275-ONDC-1-11094"
+          },
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "billing": {
+            "name": "Samaksh Rawat",
+            "address": {
+              "door": "",
+              "name": "Samaksh Rawat",
+              "locality": "Electronic City",
+              "city": "Bangalore",
+              "state": "Bangalore",
+              "country": "IND",
+              "area_code": "560004",
+              "building": "",
+              "ward": ""
+            },
+            "email": "samaksh.rawat@hikeqa.com",
+            "phone": "9873151667",
+            "created_at": "2022-08-06T07:42:08",
+            "updated_at": "2022-08-31T07:41:38"
+          },
+          "fulfillments": [
+            {
+              "type": "Delivery",
+              "tracking": false,
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "door": "",
+                    "name": "office",
+                    "locality": "Electronic City",
+                    "city": "Bangalore",
+                    "state": "Bangalore",
+                    "country": "",
+                    "area_code": "560004",
+                    "building": "",
+                    "ward": ""
+                  }
+                },
+                "contact": {
+                  "phone": "9873151667",
+                  "email": "samaksh.rawat@hikeqa.com"
+                }
+              }
+            }
+          ],
+          "quote": {
+            "price": {
+              "currency": "INR",
+              "value": "336"
+            },
+            "breakup": [
+              {
+                "@ondc/org/item_id": "40191024464053",
+                "@ondc/org/item_quantity": {
+                  "count": 1
+                },
+                "title": "Surf Excel Matic 3-in-1 Smart Shots, for both front load and top load machines. Pack of 17",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": 306
+                }
+              },
+              {
+                "title": "Delivery charges",
+                "@ondc/org/title_type": "delivery",
+                "price": {
+                  "currency": "INR",
+                  "value": "30"
+                }
+              }
+            ]
+          },
+          "payment": {
+            "type": "ON-ORDER",
+            "collected_by": "BAP",
+            "@ondc/org/buyer_app_finder_fee_type": "Percent",
+            "@ondc/org/buyer_app_finder_fee_amount": 0,
+            "@ondc/org/withholding_amount": 0,
+            "@ondc/org/return_window": 0,
+            "@ondc/org/settlement_basis": "Collection",
+            "@ondc/org/settlement_window": "P1D",
+            "@ondc/org/settlement_details": [
+              {
+                "settlement_counterparty": "JHAKAAS RETAIL PRIVATE LIMITED",
+                "settlement_phase": "sale-amount",
+                "settlement_type": "neft",
+                "upi_address": "",
+                "settlement_bank_account_no": "623905034810",
+                "settlement_ifsc_code": "ICIC0006239",
+                "beneficiary_name": "JHAKAAS RETAIL PRIVATE LIMITED",
+                "bank_name": "ICICI BANK",
+                "branch_name": "Mumbai Chembur branch"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[host:\"172.30.151.104:9004\", accept:\"application/json, text/plain, */*\", content-type:\"application/json\", authorization:\"Signature keyId=\"ondc.hulsecure.in|e79d1b77-0906-4323-aa92-c7dc64861f14|ed25519\",algorithm=\"ed25519\",created=\"1662355520\",expires=\"1662359120\",headers=\"(created) (expires) digest\",signature=\"ry9E1bJtkGr0yB6qfLH7mqGA+snzGJ/Uzr2iVHd+CMveytq9DxETcFqCDJZyVESRlVBuOwa6etsapGHIgG5YAw==\"\", user-agent:\"axios/0.27.2\", x-forwarded-for:\"44.198.186.133, 10.130.18.3\", x-forwarded-host:\"pilot-gateway-1.beckn.nsdl.co.in\", x-forwarded-server:\"prdaspweb1\", content-length:\"2350\", connection:\"Keep-Alive\", remoteHost:\"44.198.186.133, 10.130.18.3\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "4e0e964b-9d0f-4dc2-a1ef-30f9e049be2e",
+    "type": "ACK_TO_BUYER",
+    "time_taken": 0,
+    "remote_host": "",
+    "message_id": "24ca91a3-ed96-4030-ab98-7703be7a211d",
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "confirm",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:38.939354",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "confirm",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "24ca91a3-ed96-4030-ab98-7703be7a211d",
+        "timestamp": "2022-09-05T05:25:38.358Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "id": "K106390753330911",
+          "state": "Created",
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "billing": {
+            "name": "Samaksh Rawat",
+            "address": {
+              "door": "Flat No 1004",
+              "name": "Samaksh Rawat",
+              "locality": "Electronic City",
+              "city": "Bangalore",
+              "state": "Bangalore",
+              "country": "IND",
+              "area_code": "560004"
+            },
+            "email": "samaksh.rawat@hikeqa.com",
+            "phone": "9873151667",
+            "created_at": "2022-08-06T07:42:08",
+            "updated_at": "2022-08-31T07:41:38"
+          },
+          "fulfillments": [
+            {
+              "type": "Delivery",
+              "tracking": false,
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "door": "Flat No 1004",
+                    "name": "office",
+                    "locality": "Electronic City",
+                    "city": "Bangalore",
+                    "state": "Bangalore",
+                    "country": "IND",
+                    "area_code": "560004"
+                  }
+                },
+                "contact": {
+                  "phone": "9873151667",
+                  "email": "samaksh.rawat@hikeqa.com"
+                }
+              }
+            }
+          ],
+          "payment": {
+            "params": {
+              "amount": "306.0000",
+              "currency": "INR"
+            },
+            "type": "ON-ORDER",
+            "status": "paid",
+            "collected_by": "BAP",
+            "collected_by_status": "Agree"
+          },
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e",
+            "locations": [
+              {
+                "id": " 65426587829"
+              }
+            ]
+          },
+          "created_at": "2022-09-05T05:25:38.360778",
+          "updated_at": "2022-09-05T05:25:38.360784"
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[Content-Type:\"application/json\", Accept:\"application/json\", Authorization:\"Signature keyId=\"cloud-adaptor.proteantech.in/kotak|96c0c288-8086-4b1f-b471-9ba6a0315422|ed25519\",algorithm=\"ed25519\", created=\"1662355538\", expires=\"1662955538\", headers=\"(created) (expires) digest\", signature=\"xUjpbAllSezT9JUZz+ortGHbWJQtXK48X6nsdAgSQR8FxNbcAi1ul43ikTTPnPr65FyI5UEJOMMxVQuWHbSQCw==\"\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "19fa9b85-9522-49b9-b67c-b996a6d2c42b",
+    "type": "ACK_TO_SELLER",
+    "time_taken": 0,
+    "remote_host": "44.198.186.133, 10.130.18.3",
+    "message_id": "24ca91a3-ed96-4030-ab98-7703be7a211d",
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "on_confirm",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:40.336225",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_confirm",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "24ca91a3-ed96-4030-ab98-7703be7a211d",
+        "timestamp": "2022-09-04T12:42:46.148Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "id": "K106390753330911",
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e"
+          },
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "billing": {
+            "name": "Samaksh Rawat",
+            "address": {
+              "door": "Flat No 1004",
+              "name": "Samaksh Rawat",
+              "locality": "Electronic City",
+              "city": "Bangalore",
+              "state": "Bangalore",
+              "country": "IND",
+              "area_code": "560004"
+            },
+            "email": "samaksh.rawat@hikeqa.com",
+            "phone": "9873151667",
+            "created_at": "2022-08-06T07:42:08",
+            "updated_at": "2022-08-31T07:41:38"
+          },
+          "fulfillments": [
+            {
+              "type": "Delivery",
+              "tracking": false,
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "door": "Flat No 1004",
+                    "name": "office",
+                    "locality": "Electronic City",
+                    "city": "Bangalore",
+                    "state": "Bangalore",
+                    "country": "IND",
+                    "area_code": "560004"
+                  }
+                },
+                "contact": {
+                  "phone": "9873151667",
+                  "email": "samaksh.rawat@hikeqa.com"
+                }
+              }
+            }
+          ],
+          "quote": {
+            "price": {
+              "currency": "INR",
+              "value": "336"
+            },
+            "breakup": [
+              {
+                "@ondc/org/item_id": "40191024464053",
+                "@ondc/org/item_quantity": {
+                  "count": 1
+                },
+                "title": "Surf Excel Matic 3-in-1 Smart Shots, for both front load and top load machines. Pack of 17",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": 306
+                }
+              },
+              {
+                "title": "Delivery charges",
+                "@ondc/org/title_type": "delivery",
+                "price": {
+                  "currency": "INR",
+                  "value": "30"
+                }
+              }
+            ]
+          },
+          "payment": {
+            "params": {
+              "amount": "306.0000",
+              "currency": "INR"
+            },
+            "type": "ON-ORDER",
+            "status": "paid",
+            "collected_by": "BAP",
+            "collected_by_status": "Agree"
+          }
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[host:\"172.30.151.104:9004\", accept:\"application/json, text/plain, */*\", content-type:\"application/json\", authorization:\"Signature keyId=\"ondc.hulsecure.in|e79d1b77-0906-4323-aa92-c7dc64861f14|ed25519\",algorithm=\"ed25519\",created=\"1662355539\",expires=\"1662359139\",headers=\"(created) (expires) digest\",signature=\"BagwIGkOwIIet/yruXk413Zeh4HmPlzSOFZtVOm/N6TpVyVFhOWecX/4s1yyN0scrMvBoSLRf6tMX14IkyFpBQ==\"\", user-agent:\"axios/0.27.2\", x-forwarded-for:\"44.198.186.133, 10.130.18.3\", x-forwarded-host:\"pilot-gateway-1.beckn.nsdl.co.in\", x-forwarded-server:\"prdaspweb1\", content-length:\"1826\", connection:\"Keep-Alive\", remoteHost:\"44.198.186.133, 10.130.18.3\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "cf0f3ca2-84bd-4961-8bfd-878c0a2008ed",
+    "type": "REQUEST_TO_SELLER",
+    "time_taken": 0,
+    "remote_host": "",
+    "message_id": 465660864051992800,
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "init",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:20.383151",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "init",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "465660864051992800",
+        "timestamp": "2022-09-05T05:25:19.804Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "billing": {
+            "name": "Samaksh Rawat",
+            "address": {
+              "door": "Flat No 1004",
+              "name": "Samaksh Rawat",
+              "locality": "Electronic City",
+              "city": "Bangalore",
+              "state": "Bangalore",
+              "country": "IND",
+              "area_code": "560004"
+            },
+            "email": "samaksh.rawat@hikeqa.com",
+            "phone": "9873151667",
+            "created_at": "2022-08-06T07:42:08",
+            "updated_at": "2022-08-31T07:41:38"
+          },
+          "fulfillments": [
+            {
+              "type": "Delivery",
+              "tracking": false,
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "door": "Flat No 1004",
+                    "name": "office",
+                    "locality": "Electronic City",
+                    "city": "Bangalore",
+                    "state": "Bangalore",
+                    "country": "",
+                    "area_code": "560004"
+                  }
+                },
+                "contact": {
+                  "phone": "9873151667",
+                  "email": "samaksh.rawat@hikeqa.com"
+                }
+              }
+            }
+          ],
+          "payment": {
+            "type": "ON-ORDER",
+            "status": "paid",
+            "collected_by": "BAP",
+            "collected_by_status": "Agree"
+          },
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e",
+            "locations": [
+              {
+                "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[Content-Type:\"application/json\", Accept:\"application/json\", Authorization:\"Signature keyId=\"cloud-adaptor.proteantech.in/kotak|96c0c288-8086-4b1f-b471-9ba6a0315422|ed25519\",algorithm=\"ed25519\", created=\"1662355520\", expires=\"1662955520\", headers=\"(created) (expires) digest\", signature=\"zUaw7uRRU9GyfFPNdqAQqX3aNhWcbqBSBtwBJh0STCIBHuMve2OR3n79sqLxcTMC+96e9j0K8DoI9H0snlLIAA==\"\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "de2c6811-0ae7-4181-84af-6209c54952ef",
+    "type": "ACK_BY_SELLER",
+    "time_taken": 216,
+    "remote_host": "",
+    "message_id": 465660864051992800,
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "init",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:20.599807",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "init",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "465660864051992800",
+        "timestamp": "2022-09-05T05:25:19.804Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "billing": {
+            "name": "Samaksh Rawat",
+            "address": {
+              "door": "Flat No 1004",
+              "name": "Samaksh Rawat",
+              "locality": "Electronic City",
+              "city": "Bangalore",
+              "state": "Bangalore",
+              "country": "IND",
+              "area_code": "560004"
+            },
+            "email": "samaksh.rawat@hikeqa.com",
+            "phone": "9873151667",
+            "created_at": "2022-08-06T07:42:08",
+            "updated_at": "2022-08-31T07:41:38"
+          },
+          "fulfillments": [
+            {
+              "type": "Delivery",
+              "tracking": false,
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "door": "Flat No 1004",
+                    "name": "office",
+                    "locality": "Electronic City",
+                    "city": "Bangalore",
+                    "state": "Bangalore",
+                    "country": "",
+                    "area_code": "560004"
+                  }
+                },
+                "contact": {
+                  "phone": "9873151667",
+                  "email": "samaksh.rawat@hikeqa.com"
+                }
+              }
+            }
+          ],
+          "payment": {
+            "type": "ON-ORDER",
+            "status": "paid",
+            "collected_by": "BAP",
+            "collected_by_status": "Agree"
+          },
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e",
+            "locations": [
+              {
+                "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[Content-Type:\"application/json\", Accept:\"application/json\", Authorization:\"Signature keyId=\"cloud-adaptor.proteantech.in/kotak|96c0c288-8086-4b1f-b471-9ba6a0315422|ed25519\",algorithm=\"ed25519\", created=\"1662355520\", expires=\"1662955520\", headers=\"(created) (expires) digest\", signature=\"zUaw7uRRU9GyfFPNdqAQqX3aNhWcbqBSBtwBJh0STCIBHuMve2OR3n79sqLxcTMC+96e9j0K8DoI9H0snlLIAA==\"\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "0521d2c8-72a0-47a6-8460-8cd3446d076c",
+    "type": "RESPONSE_BY_SELLER",
+    "time_taken": 0,
+    "remote_host": "44.198.186.133, 10.130.18.3",
+    "message_id": 465660864051992800,
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "on_init",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:21.635399",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_init",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "465660864051992800",
+        "timestamp": "2022-09-04T12:42:46.148Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e"
+          },
+          "provider_location": {
+            "id": "18275-ONDC-1-11094"
+          },
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "billing": {
+            "name": "Samaksh Rawat",
+            "address": {
+              "door": "",
+              "name": "Samaksh Rawat",
+              "locality": "Electronic City",
+              "city": "Bangalore",
+              "state": "Bangalore",
+              "country": "IND",
+              "area_code": "560004",
+              "building": "",
+              "ward": ""
+            },
+            "email": "samaksh.rawat@hikeqa.com",
+            "phone": "9873151667",
+            "created_at": "2022-08-06T07:42:08",
+            "updated_at": "2022-08-31T07:41:38"
+          },
+          "fulfillments": [
+            {
+              "type": "Delivery",
+              "tracking": false,
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "door": "",
+                    "name": "office",
+                    "locality": "Electronic City",
+                    "city": "Bangalore",
+                    "state": "Bangalore",
+                    "country": "",
+                    "area_code": "560004",
+                    "building": "",
+                    "ward": ""
+                  }
+                },
+                "contact": {
+                  "phone": "9873151667",
+                  "email": "samaksh.rawat@hikeqa.com"
+                }
+              }
+            }
+          ],
+          "quote": {
+            "price": {
+              "currency": "INR",
+              "value": "336"
+            },
+            "breakup": [
+              {
+                "@ondc/org/item_id": "40191024464053",
+                "@ondc/org/item_quantity": {
+                  "count": 1
+                },
+                "title": "Surf Excel Matic 3-in-1 Smart Shots, for both front load and top load machines. Pack of 17",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": 306
+                }
+              },
+              {
+                "title": "Delivery charges",
+                "@ondc/org/title_type": "delivery",
+                "price": {
+                  "currency": "INR",
+                  "value": "30"
+                }
+              }
+            ]
+          },
+          "payment": {
+            "type": "ON-ORDER",
+            "collected_by": "BAP",
+            "@ondc/org/buyer_app_finder_fee_type": "Percent",
+            "@ondc/org/buyer_app_finder_fee_amount": 0,
+            "@ondc/org/withholding_amount": 0,
+            "@ondc/org/return_window": 0,
+            "@ondc/org/settlement_basis": "Collection",
+            "@ondc/org/settlement_window": "P1D",
+            "@ondc/org/settlement_details": [
+              {
+                "settlement_counterparty": "JHAKAAS RETAIL PRIVATE LIMITED",
+                "settlement_phase": "sale-amount",
+                "settlement_type": "neft",
+                "upi_address": "",
+                "settlement_bank_account_no": "623905034810",
+                "settlement_ifsc_code": "ICIC0006239",
+                "beneficiary_name": "JHAKAAS RETAIL PRIVATE LIMITED",
+                "bank_name": "ICICI BANK",
+                "branch_name": "Mumbai Chembur branch"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[host:\"172.30.151.104:9004\", accept:\"application/json, text/plain, */*\", content-type:\"application/json\", authorization:\"Signature keyId=\"ondc.hulsecure.in|e79d1b77-0906-4323-aa92-c7dc64861f14|ed25519\",algorithm=\"ed25519\",created=\"1662355520\",expires=\"1662359120\",headers=\"(created) (expires) digest\",signature=\"ry9E1bJtkGr0yB6qfLH7mqGA+snzGJ/Uzr2iVHd+CMveytq9DxETcFqCDJZyVESRlVBuOwa6etsapGHIgG5YAw==\"\", user-agent:\"axios/0.27.2\", x-forwarded-for:\"44.198.186.133, 10.130.18.3\", x-forwarded-host:\"pilot-gateway-1.beckn.nsdl.co.in\", x-forwarded-server:\"prdaspweb1\", content-length:\"2350\", connection:\"Keep-Alive\", remoteHost:\"44.198.186.133, 10.130.18.3\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "894b7c70-1b02-41cf-ac10-0250e3bd7bdd",
+    "type": "REQUEST_TO_SELLER",
+    "time_taken": 0,
+    "remote_host": "",
+    "message_id": "24ca91a3-ed96-4030-ab98-7703be7a211d",
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "confirm",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:38.939549",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "confirm",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "24ca91a3-ed96-4030-ab98-7703be7a211d",
+        "timestamp": "2022-09-05T05:25:38.358Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "id": "K106390753330911",
+          "state": "Created",
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "billing": {
+            "name": "Samaksh Rawat",
+            "address": {
+              "door": "Flat No 1004",
+              "name": "Samaksh Rawat",
+              "locality": "Electronic City",
+              "city": "Bangalore",
+              "state": "Bangalore",
+              "country": "IND",
+              "area_code": "560004"
+            },
+            "email": "samaksh.rawat@hikeqa.com",
+            "phone": "9873151667",
+            "created_at": "2022-08-06T07:42:08",
+            "updated_at": "2022-08-31T07:41:38"
+          },
+          "fulfillments": [
+            {
+              "type": "Delivery",
+              "tracking": false,
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "door": "Flat No 1004",
+                    "name": "office",
+                    "locality": "Electronic City",
+                    "city": "Bangalore",
+                    "state": "Bangalore",
+                    "country": "IND",
+                    "area_code": "560004"
+                  }
+                },
+                "contact": {
+                  "phone": "9873151667",
+                  "email": "samaksh.rawat@hikeqa.com"
+                }
+              }
+            }
+          ],
+          "payment": {
+            "params": {
+              "amount": "306.0000",
+              "currency": "INR"
+            },
+            "type": "ON-ORDER",
+            "status": "paid",
+            "collected_by": "BAP",
+            "collected_by_status": "Agree"
+          },
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e",
+            "locations": [
+              {
+                "id": " 65426587829"
+              }
+            ]
+          },
+          "created_at": "2022-09-05T05:25:38.360778",
+          "updated_at": "2022-09-05T05:25:38.360784"
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[Content-Type:\"application/json\", Accept:\"application/json\", Authorization:\"Signature keyId=\"cloud-adaptor.proteantech.in/kotak|96c0c288-8086-4b1f-b471-9ba6a0315422|ed25519\",algorithm=\"ed25519\", created=\"1662355538\", expires=\"1662955538\", headers=\"(created) (expires) digest\", signature=\"xUjpbAllSezT9JUZz+ortGHbWJQtXK48X6nsdAgSQR8FxNbcAi1ul43ikTTPnPr65FyI5UEJOMMxVQuWHbSQCw==\"\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "c16b6985-9eee-4349-bc76-b2598fa94e94",
+    "type": "REQUEST_TO_SELLER",
+    "time_taken": 0,
+    "remote_host": "",
+    "message_id": "522d2e68-db34-4304-a4de-a4b7efb98052",
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "cancel",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:56.071548",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "cancel",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "522d2e68-db34-4304-a4de-a4b7efb98052",
+        "timestamp": "2022-09-05T05:25:55.478Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order_id": "K106390753330911",
+        "cancellation_reason_id": "002"
+      }
+    },
+    "status": "N",
+    "headers": "[Content-Type:\"application/json\", Accept:\"application/json\", Authorization:\"Signature keyId=\"cloud-adaptor.proteantech.in/kotak|96c0c288-8086-4b1f-b471-9ba6a0315422|ed25519\",algorithm=\"ed25519\", created=\"1662355556\", expires=\"1662955556\", headers=\"(created) (expires) digest\", signature=\"2pFy4fO3TO4lZdz6q8Iy9UmWajrmCujrfwde9d2EtqEWX94VUIf6ZdP3Jgurg3r+T6MvpeVgBIXDMmtl9YluDA==\"\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "19748eb9-5615-440e-9200-4a4f979fdf80",
+    "type": "REQUEST_BY_BUYER",
+    "time_taken": 0,
+    "remote_host": "35.171.247.223, 10.130.18.3",
+    "message_id": "24ca91a3-ed96-4030-ab98-7703be7a211d",
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "confirm",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:38.93864",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "confirm",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "24ca91a3-ed96-4030-ab98-7703be7a211d",
+        "timestamp": "2022-09-05T05:25:38.358Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "id": "K106390753330911",
+          "state": "Created",
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "billing": {
+            "name": "Samaksh Rawat",
+            "address": {
+              "door": "Flat No 1004",
+              "name": "Samaksh Rawat",
+              "locality": "Electronic City",
+              "city": "Bangalore",
+              "state": "Bangalore",
+              "country": "IND",
+              "area_code": "560004"
+            },
+            "email": "samaksh.rawat@hikeqa.com",
+            "phone": "9873151667",
+            "created_at": "2022-08-06T07:42:08",
+            "updated_at": "2022-08-31T07:41:38"
+          },
+          "fulfillments": [
+            {
+              "type": "Delivery",
+              "tracking": false,
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "door": "Flat No 1004",
+                    "name": "office",
+                    "locality": "Electronic City",
+                    "city": "Bangalore",
+                    "state": "Bangalore",
+                    "country": "IND",
+                    "area_code": "560004"
+                  }
+                },
+                "contact": {
+                  "phone": "9873151667",
+                  "email": "samaksh.rawat@hikeqa.com"
+                }
+              }
+            }
+          ],
+          "payment": {
+            "params": {
+              "amount": "306.0000",
+              "currency": "INR"
+            },
+            "type": "ON-ORDER",
+            "status": "paid",
+            "collected_by": "BAP",
+            "collected_by_status": "Agree"
+          },
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e",
+            "locations": [
+              {
+                "id": " 65426587829"
+              }
+            ]
+          },
+          "created_at": "2022-09-05T05:25:38.360778",
+          "updated_at": "2022-09-05T05:25:38.360784"
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[host:\"172.30.151.104:9004\", content-type:\"text/plain;charset=UTF-8\", x-b3-traceid:\"d00ca2d768467fc9\", x-b3-spanid:\"2e44ce538c6ff9c3\", x-b3-parentspanid:\"d00ca2d768467fc9\", x-b3-sampled:\"0\", accept:\"*/*\", user-agent:\"Java/11.0.16\", x-forwarded-for:\"35.171.247.223, 10.130.18.3\", x-forwarded-host:\"pilot-gateway-1.beckn.nsdl.co.in\", x-forwarded-server:\"prdaspweb1\", content-length:\"1548\", connection:\"Keep-Alive\", remoteHost:\"35.171.247.223, 10.130.18.3\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "0ec77442-2ccc-4d9a-8660-c0a07ccec98a",
+    "type": "REQUEST_BY_BUYER",
+    "time_taken": 0,
+    "remote_host": "35.171.247.223, 10.130.18.3",
+    "message_id": "522d2e68-db34-4304-a4de-a4b7efb98052",
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "cancel",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:56.07086",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "cancel",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "522d2e68-db34-4304-a4de-a4b7efb98052",
+        "timestamp": "2022-09-05T05:25:55.478Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order_id": "K106390753330911",
+        "cancellation_reason_id": "002"
+      }
+    },
+    "status": "N",
+    "headers": "[host:\"172.30.151.104:9004\", content-type:\"text/plain;charset=UTF-8\", x-b3-traceid:\"a2bce32df30e2bde\", x-b3-spanid:\"25a1c9e55ea7643b\", x-b3-parentspanid:\"a2bce32df30e2bde\", x-b3-sampled:\"0\", accept:\"*/*\", user-agent:\"Java/11.0.16\", x-forwarded-for:\"35.171.247.223, 10.130.18.3\", x-forwarded-host:\"pilot-gateway-1.beckn.nsdl.co.in\", x-forwarded-server:\"prdaspweb1\", content-length:\"528\", connection:\"Keep-Alive\", remoteHost:\"35.171.247.223, 10.130.18.3\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "e8a5d412-ddff-433e-a526-d1b291c42197",
+    "type": "ACK_BY_SELLER",
+    "time_taken": 216,
+    "remote_host": "",
+    "message_id": "24ca91a3-ed96-4030-ab98-7703be7a211d",
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "confirm",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:39.15525",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "confirm",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "24ca91a3-ed96-4030-ab98-7703be7a211d",
+        "timestamp": "2022-09-05T05:25:38.358Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "id": "K106390753330911",
+          "state": "Created",
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "billing": {
+            "name": "Samaksh Rawat",
+            "address": {
+              "door": "Flat No 1004",
+              "name": "Samaksh Rawat",
+              "locality": "Electronic City",
+              "city": "Bangalore",
+              "state": "Bangalore",
+              "country": "IND",
+              "area_code": "560004"
+            },
+            "email": "samaksh.rawat@hikeqa.com",
+            "phone": "9873151667",
+            "created_at": "2022-08-06T07:42:08",
+            "updated_at": "2022-08-31T07:41:38"
+          },
+          "fulfillments": [
+            {
+              "type": "Delivery",
+              "tracking": false,
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "door": "Flat No 1004",
+                    "name": "office",
+                    "locality": "Electronic City",
+                    "city": "Bangalore",
+                    "state": "Bangalore",
+                    "country": "IND",
+                    "area_code": "560004"
+                  }
+                },
+                "contact": {
+                  "phone": "9873151667",
+                  "email": "samaksh.rawat@hikeqa.com"
+                }
+              }
+            }
+          ],
+          "payment": {
+            "params": {
+              "amount": "306.0000",
+              "currency": "INR"
+            },
+            "type": "ON-ORDER",
+            "status": "paid",
+            "collected_by": "BAP",
+            "collected_by_status": "Agree"
+          },
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e",
+            "locations": [
+              {
+                "id": " 65426587829"
+              }
+            ]
+          },
+          "created_at": "2022-09-05T05:25:38.360778",
+          "updated_at": "2022-09-05T05:25:38.360784"
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[Content-Type:\"application/json\", Accept:\"application/json\", Authorization:\"Signature keyId=\"cloud-adaptor.proteantech.in/kotak|96c0c288-8086-4b1f-b471-9ba6a0315422|ed25519\",algorithm=\"ed25519\", created=\"1662355538\", expires=\"1662955538\", headers=\"(created) (expires) digest\", signature=\"xUjpbAllSezT9JUZz+ortGHbWJQtXK48X6nsdAgSQR8FxNbcAi1ul43ikTTPnPr65FyI5UEJOMMxVQuWHbSQCw==\"\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "6138ae58-cb14-4ab6-a7cf-0ca0c664119f",
+    "type": "RESPONSE_BY_SELLER",
+    "time_taken": 0,
+    "remote_host": "44.198.186.133, 10.130.18.3",
+    "message_id": "24ca91a3-ed96-4030-ab98-7703be7a211d",
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "on_confirm",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:40.335683",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_confirm",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "24ca91a3-ed96-4030-ab98-7703be7a211d",
+        "timestamp": "2022-09-04T12:42:46.148Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "id": "K106390753330911",
+          "provider": {
+            "id": "afe44f35-fb0c-527b-8a80-a1b0b839197e"
+          },
+          "items": [
+            {
+              "id": "40191024464053",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "billing": {
+            "name": "Samaksh Rawat",
+            "address": {
+              "door": "Flat No 1004",
+              "name": "Samaksh Rawat",
+              "locality": "Electronic City",
+              "city": "Bangalore",
+              "state": "Bangalore",
+              "country": "IND",
+              "area_code": "560004"
+            },
+            "email": "samaksh.rawat@hikeqa.com",
+            "phone": "9873151667",
+            "created_at": "2022-08-06T07:42:08",
+            "updated_at": "2022-08-31T07:41:38"
+          },
+          "fulfillments": [
+            {
+              "type": "Delivery",
+              "tracking": false,
+              "end": {
+                "location": {
+                  "gps": "12.971599,77.594566",
+                  "address": {
+                    "door": "Flat No 1004",
+                    "name": "office",
+                    "locality": "Electronic City",
+                    "city": "Bangalore",
+                    "state": "Bangalore",
+                    "country": "IND",
+                    "area_code": "560004"
+                  }
+                },
+                "contact": {
+                  "phone": "9873151667",
+                  "email": "samaksh.rawat@hikeqa.com"
+                }
+              }
+            }
+          ],
+          "quote": {
+            "price": {
+              "currency": "INR",
+              "value": "336"
+            },
+            "breakup": [
+              {
+                "@ondc/org/item_id": "40191024464053",
+                "@ondc/org/item_quantity": {
+                  "count": 1
+                },
+                "title": "Surf Excel Matic 3-in-1 Smart Shots, for both front load and top load machines. Pack of 17",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": 306
+                }
+              },
+              {
+                "title": "Delivery charges",
+                "@ondc/org/title_type": "delivery",
+                "price": {
+                  "currency": "INR",
+                  "value": "30"
+                }
+              }
+            ]
+          },
+          "payment": {
+            "params": {
+              "amount": "306.0000",
+              "currency": "INR"
+            },
+            "type": "ON-ORDER",
+            "status": "paid",
+            "collected_by": "BAP",
+            "collected_by_status": "Agree"
+          }
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[host:\"172.30.151.104:9004\", accept:\"application/json, text/plain, */*\", content-type:\"application/json\", authorization:\"Signature keyId=\"ondc.hulsecure.in|e79d1b77-0906-4323-aa92-c7dc64861f14|ed25519\",algorithm=\"ed25519\",created=\"1662355539\",expires=\"1662359139\",headers=\"(created) (expires) digest\",signature=\"BagwIGkOwIIet/yruXk413Zeh4HmPlzSOFZtVOm/N6TpVyVFhOWecX/4s1yyN0scrMvBoSLRf6tMX14IkyFpBQ==\"\", user-agent:\"axios/0.27.2\", x-forwarded-for:\"44.198.186.133, 10.130.18.3\", x-forwarded-host:\"pilot-gateway-1.beckn.nsdl.co.in\", x-forwarded-server:\"prdaspweb1\", content-length:\"1826\", connection:\"Keep-Alive\", remoteHost:\"44.198.186.133, 10.130.18.3\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "9a291edd-9560-4669-9616-1aca919a77a4",
+    "type": "ACK_TO_BUYER",
+    "time_taken": 0,
+    "remote_host": "",
+    "message_id": "522d2e68-db34-4304-a4de-a4b7efb98052",
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "cancel",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:56.071398",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "cancel",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "522d2e68-db34-4304-a4de-a4b7efb98052",
+        "timestamp": "2022-09-05T05:25:55.478Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order_id": "K106390753330911",
+        "cancellation_reason_id": "002"
+      }
+    },
+    "status": "N",
+    "headers": "[Content-Type:\"application/json\", Accept:\"application/json\", Authorization:\"Signature keyId=\"cloud-adaptor.proteantech.in/kotak|96c0c288-8086-4b1f-b471-9ba6a0315422|ed25519\",algorithm=\"ed25519\", created=\"1662355556\", expires=\"1662955556\", headers=\"(created) (expires) digest\", signature=\"2pFy4fO3TO4lZdz6q8Iy9UmWajrmCujrfwde9d2EtqEWX94VUIf6ZdP3Jgurg3r+T6MvpeVgBIXDMmtl9YluDA==\"\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "002c01ec-267f-4bd8-a865-ed73ccc73071",
+    "type": "RESPONSE_BY_SELLER",
+    "time_taken": 0,
+    "remote_host": "44.198.186.133, 10.130.18.3",
+    "message_id": "522d2e68-db34-4304-a4de-a4b7efb98052",
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "on_cancel",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:56.91584",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_cancel",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "522d2e68-db34-4304-a4de-a4b7efb98052",
+        "timestamp": "2022-09-04T12:42:46.148Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "id": "K106390753330911",
+          "state": "Cancelled",
+          "tags": {
+            "cancelled_by": "logistics-provider",
+            "cancellation_reason_id": "002"
+          }
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[host:\"172.30.151.104:9004\", accept:\"application/json, text/plain, */*\", content-type:\"application/json\", authorization:\"Signature keyId=\"ondc.hulsecure.in|e79d1b77-0906-4323-aa92-c7dc64861f14|ed25519\",algorithm=\"ed25519\",created=\"1662355556\",expires=\"1662359156\",headers=\"(created) (expires) digest\",signature=\"QDbja6yMpqIYZwWmwVKrK+qiDDnaxUshNpJMC0XCnTdK35e9YBkgxL5LO5H0D7plB0Y5ix41XBBzpKwJ21vADw==\"\", user-agent:\"axios/0.27.2\", x-forwarded-for:\"44.198.186.133, 10.130.18.3\", x-forwarded-host:\"pilot-gateway-1.beckn.nsdl.co.in\", x-forwarded-server:\"prdaspweb1\", content-length:\"600\", connection:\"Keep-Alive\", remoteHost:\"44.198.186.133, 10.130.18.3\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  },
+  {
+    "id": "47f2b485-1dc2-4373-84e5-c28e13aa19bd",
+    "type": "ACK_TO_SELLER",
+    "time_taken": 0,
+    "remote_host": "44.198.186.133, 10.130.18.3",
+    "message_id": "522d2e68-db34-4304-a4de-a4b7efb98052",
+    "transaction_id": 462880012085117500,
+    "buyer_id": "cloud-adaptor.proteantech.in/kotak",
+    "seller_id": "ondc.hulsecure.in",
+    "action": "on_cancel",
+    "domain": "nic2004:52110",
+    "core_version": "1.0.0",
+    "created_on": "2022-09-05 10:55:56.915865",
+    "json": {
+      "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_cancel",
+        "core_version": "1.0.0",
+        "bap_id": "cloud-adaptor.proteantech.in/kotak",
+        "bap_uri": "https://pilot-gateway-1.beckn.nsdl.co.in/buyer-v4/buyer/adaptor",
+        "bpp_id": "ondc.hulsecure.in",
+        "bpp_uri": "https://ondc.hulsecure.in/preprod/v1",
+        "transaction_id": "462880012085117500",
+        "message_id": "522d2e68-db34-4304-a4de-a4b7efb98052",
+        "timestamp": "2022-09-04T12:42:46.148Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "id": "K106390753330911",
+          "state": "Cancelled",
+          "tags": {
+            "cancelled_by": "logistics-provider",
+            "cancellation_reason_id": "002"
+          }
+        }
+      }
+    },
+    "status": "N",
+    "headers": "[host:\"172.30.151.104:9004\", accept:\"application/json, text/plain, */*\", content-type:\"application/json\", authorization:\"Signature keyId=\"ondc.hulsecure.in|e79d1b77-0906-4323-aa92-c7dc64861f14|ed25519\",algorithm=\"ed25519\",created=\"1662355556\",expires=\"1662359156\",headers=\"(created) (expires) digest\",signature=\"QDbja6yMpqIYZwWmwVKrK+qiDDnaxUshNpJMC0XCnTdK35e9YBkgxL5LO5H0D7plB0Y5ix41XBBzpKwJ21vADw==\"\", user-agent:\"axios/0.27.2\", x-forwarded-for:\"44.198.186.133, 10.130.18.3\", x-forwarded-host:\"pilot-gateway-1.beckn.nsdl.co.in\", x-forwarded-server:\"prdaspweb1\", content-length:\"600\", connection:\"Keep-Alive\", remoteHost:\"44.198.186.133, 10.130.18.3\"]",
+    "host_id": "Beckn-Pilot-APP2",
+    "error": "NULL",
+    "city": "std:011"
+  }
+]
